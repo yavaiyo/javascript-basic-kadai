@@ -1,11 +1,13 @@
 //体重
-let t = '68';
+let bodyWeight;
+bodyWeight = 68;
 
 //身長
-let s = '1.7';
+let Height;
+Height = 1.7;
 
 //BMI
 let bmi;
-bmi = ([t] / [s * s])
+bmi = bodyWeight / (Height * Height);
 
-console.log(bmi)
+console.log(bmi);
